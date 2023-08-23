@@ -5,7 +5,7 @@ Release: alt1
 Summary: Xml files for domain-diag package.
 License: GPLv2+
 Group: Other
-URL: https://github.com/uyraq2001/alterator-module-browser
+URL: https://github.com/uyraq2001/domain-diag-interface
 
 Source0: %name-%version.tar
 
