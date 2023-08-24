@@ -16,11 +16,11 @@ Xml files describing D-Bus interfaces of domain-diag object.
 %setup
 
 %install
-mkdir -p %buildroot%{_datadir}/d-bus1/interfaces
-install -v -p -m 644 -D ru.basealt.alterator.diag1.xml %buildroot%{_datadir}/d-bus1/interfaces
+mkdir -p %buildroot%{_datadir}/dbus-1/interfaces
+install -v -p -m 644 -D ru.basealt.alterator.diag1.xml %buildroot%{_datadir}/dbus-1/interfaces
 
 %files
-%{_datadir}/d-bus1/interfaces/ru.basealt.alterator.diag1.xml
+%{_datadir}/dbus-1/interfaces/ru.basealt.alterator.diag1.xml
 
 %changelog
 * Wed Aug 23 2023 Kozyrev Yuri <kozyrevid@altlinux.org> 0.1.0-alt1
