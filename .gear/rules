@@ -1,2 +1,2 @@
-spec: .gear/domain-diag-interface.spec
+spec: .gear/diag1-interface.spec
 tar: .
