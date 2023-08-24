@@ -6,6 +6,7 @@ Summary: Xml files for domain-diag package.
 License: GPLv2+
 Group: Other
 URL: https://github.com/uyraq2001/domain-diag-interface
+BuildArch: noarch
 
 Source0: %name-%version.tar
 
