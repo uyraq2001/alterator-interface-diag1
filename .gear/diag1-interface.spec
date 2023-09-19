@@ -2,7 +2,7 @@ Name: diag1-interface
 Version: 0.1.0
 Release: alt1
 
-Summary: Xml files for domain-diag package.
+Summary: XML files for domain-diag package.
 License: GPLv2+
 Group: Other
 URL: https://github.com/uyraq2001/domain-diag-interface
@@ -10,7 +10,7 @@ URL: https://github.com/uyraq2001/domain-diag-interface
 Source0: %name-%version.tar
 
 %description
-Xml files describing D-Bus interfaces of domain-diag object.
+XML files describing D-Bus interfaces of alterator diagnostic tools.
 
 %prep
 %setup
