@@ -1,11 +1,13 @@
 Name: alterator-interface-diag1
 Version: 0.1.0
-Release: alt1
+Release: alt2
 
 Summary: XML files for ru.basealt.alterator.diag1 interface.
 License: GPLv2+
 Group: Other
 URL: https://github.com/uyraq2001/alterator-interface-diag1.git
+
+BuildArch: noarch
 
 Source0: %name-%version.tar
 
@@ -26,5 +28,7 @@ install -v -p -m 644 -D 49-alterator.rules %buildroot%{_sysconfdir}/polkit-1/rul
 %{_sysconfdir}/polkit-1/rules.d/49-alterator.rules
 
 %changelog
+* Thu Sep 05 2023 Aleksey Saprunov <sav@altlinux.org> 0.1.0-alt2
+- change run method signature from bytes to signals
 * Wed Aug 23 2023 Kozyrev Yuri <kozyrevid@altlinux.org> 0.1.0-alt1
 - initial build

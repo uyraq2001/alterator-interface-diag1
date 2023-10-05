@@ -1,2 +1,2 @@
-spec: .gear/diag1-interface.spec
+spec: .gear/alterator-interface-diag1.spec
 tar: .
