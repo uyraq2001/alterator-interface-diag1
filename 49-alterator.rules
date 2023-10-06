@@ -1,14 +1,14 @@
 polkit.addRule(function(action, subject) {
-    if (action.id == "ru.basealt.alterator.object" ) {
+    if (action.id == "ru.basealt.alterator.diag1" ) {
         return polkit.Result.YES;
     }
-	if (action.id == "ru.basealt.alterator.manager" ) {
+	if (action.id == "ru.basealt.alterator.diag1.list" ) {
         return polkit.Result.YES;
     }
-	if (action.id == "ru.basealt.alterator.categories") {
+	if (action.id == "ru.basealt.alterator.diag1.info") {
         return polkit.Result.YES;
     }
-	if (action.id == "ru.basealt.alterator.applications") {
+	if (action.id == "ru.basealt.alterator.diag1.run") {
         return polkit.Result.YES;
     }
 });
