@@ -14,7 +14,7 @@
     </doc:doc>
 
     <!-- methods -->
-    <method name="list">
+    <method name="List">
       <arg type="as" name="stdout_strings" direction="out">
         <doc:doc><doc:summary>.....</doc:summary>
         </doc:doc>
@@ -33,7 +33,7 @@
       </doc:doc>
     </method>
 
-    <method name="info">
+    <method name="Info">
 
       <arg type='ay' name='stdout_bytes' direction='out'>
         <doc:doc>
@@ -63,7 +63,7 @@
       </doc:doc>
     </method>
 
-    <method name="run">
+    <method name="Run">
 
      <arg type='s' name='param' direction='in'>
         <doc:doc><doc:summary>.....</doc:summary>
