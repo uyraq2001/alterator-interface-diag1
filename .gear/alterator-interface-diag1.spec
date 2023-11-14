@@ -5,7 +5,7 @@ Release: alt1
 Summary: XML files for ru.basealt.alterator.diag1 interface.
 License: GPLv2+
 Group: Other
-URL: https://github.com/uyraq2001/alterator-interface-diag1.git
+URL: https://github.com/AlexSP0/alterator-interface-diag1.git
 
 BuildArch: noarch
 
