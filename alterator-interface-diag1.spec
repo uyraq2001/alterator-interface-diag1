@@ -19,11 +19,11 @@ XML files describing D-Bus interface ru.basealt.alterator.diag1 for ADT (Alt Dia
 
 %install
 install -p -m 644 -D ru.basealt.alterator.diag1.xml %buildroot%_datadir/dbus-1/interfaces/ru.basealt.alterator.diag1.xml
-install -p -m 644 -D 49-alterator.rules %buildroot%_datadir/polkit-1/rules.d/49-alterator.rules
+install -p -m 644 -D ru.basealt.alterator.diag1.policy %buildroot%_datadir/polkit-1/actions/ru.basealt.alterator.diag1.policy
 
 %files
-%_datadir/dbus-1/interfaces/*.xml
-%_datadir/polkit-1/rules.d/*.rules
+%_datadir/dbus-1/interfaces/ru.basealt.alterator.diag1.xml
+%_datadir/polkit-1/actions/ru.basealt.alterator.diag1.policy
 
 %changelog
 * Tue Nov 14 2023 Aleksey Saprunov <sav@altlinux.org> 0.1.0-alt1
