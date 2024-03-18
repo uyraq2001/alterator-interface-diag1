@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+"-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+"http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+  <action id="ru.basealt.alterator.diag1">
+    <description>Alterator Authentication dialogue</description>
+    <message>ru.basealt.alterator.application requires authentication.</message>
+    <defaults>
+      <allow_any>yes</allow_any>
+    </defaults>
+  </action>
+  <action id="ru.basealt.alterator.diag1.Run">
+    <description>Alterator Authentication dialogue</description>
+    <message>ru.basealt.alterator.application.Info requires authentication.</message>
+    <defaults>
+      <allow_any>auth_admin_keep</allow_any>
+    </defaults>
+  </action>
+</policyconfig>
